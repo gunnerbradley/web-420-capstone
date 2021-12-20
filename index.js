@@ -57,7 +57,7 @@ const openapiSpecification = swaggerJsdoc(options);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(openapiSpecification));
 app.use("/api", shipAPI);
 
-app.get('/', (req,res) => {
+app.get('*', (req,res) => {
   // on root the the user will be redirected to /api-docs website
   res.redirect('https://bradley-capstone-420.herokuapp.com/api-docs');
 });
