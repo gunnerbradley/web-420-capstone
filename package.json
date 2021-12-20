@@ -1,0 +1,26 @@
+{
+  "name": "web-420-capstone",
+  "version": "1.0.0",
+  "description": "Web-420 Capstone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunnerbradley/web-420-capstone.git"
+  },
+  "author": "Gunner Bradley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunnerbradley/web-420-capstone/issues"
+  },
+  "homepage": "https://github.com/gunnerbradley/web-420-capstone#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
